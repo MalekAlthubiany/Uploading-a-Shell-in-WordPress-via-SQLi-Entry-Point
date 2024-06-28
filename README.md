@@ -9,8 +9,10 @@ The target is a WordPress website. After extensive enumeration and testing of va
 
 ## Discovery of Vulnerability
 
-Using WPScan, I identified a critical CVE:
+Using WPScan, I identified a critical CVE 
+Perfect Survey < 1.5.2 - Unauthenticated SQL Injection:
 - **CVE-2021-24762**: [Link to CVE](https://wpscan.com/vulnerability/c1620905-7c31-4e62-80f5-1d9635be11ad)
+  ![image](https://github.com/MalekAlthubiany/WordPressShell-OSCP/assets/127455300/9e15ccec-8f79-4123-a9d2-d73787e04c6f)
 
 ### Exploit Payload
 
