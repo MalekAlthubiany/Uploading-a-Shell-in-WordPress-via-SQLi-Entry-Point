@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+![image](https://github.com/MalekAlthubiany/WordPressShell-OSCP/assets/127455300/d741d6f2-efee-4a56-aeaf-2e3d8ca8b7ee)
 
 # Uploading a Shell in WordPress via SQLi Entry Point 
 
