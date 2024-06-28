@@ -1,3 +1,5 @@
+![Uploading image.png…]()
+
 # Uploading a Shell in WordPress via SQLi Entry Point 
 
 This guide walks through the process of exploiting a SQL Injection (SQLi) vulnerability in a WordPress site to upload a shell and gain access to the server.
