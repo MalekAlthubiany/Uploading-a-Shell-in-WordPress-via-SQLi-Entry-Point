@@ -39,7 +39,7 @@ The password was immediately revealed. Using the cracked credentials, I logged i
 
 2. **Editing a Plugin**:
    - Navigate to the Plugins section.
-   - Choose the "Hello Dolly" plugin (or any other available plugin).
+   - Choose the "Hello Dolly" plugin 
    - Edit the plugin file (e.g., `hello.php`) to include a web shell code.
    - Update the plugin with the modified code.
 
